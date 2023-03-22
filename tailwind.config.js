@@ -88,6 +88,7 @@ module.exports = {
     },
     fontFamily: {
       roboto: ['Roboto Flex', "sans-serif"],
+      montserrat : ['Montserrat', "sans-serif"],
     },
   },
   plugins: [],

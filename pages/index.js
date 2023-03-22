@@ -1,3 +1,4 @@
+import {IndexNavigation} from "../components/Sections/Index-Section-Components/IndexNavigation";
 import {IndexLogin} from "../components/Sections/Index-Section-Components/IndexLogin";
 import {OnlyOnDisneyPlus} from "../components/Sections/Index-Section-Components/OnlyOnDisneyPlus";
 import {WatchAsYouWish} from "../components/Sections/Index-Section-Components/WatchAsYouWish";
@@ -7,6 +8,7 @@ import {IndexFooter} from "../components/Sections/Index-Section-Components/Index
 
 export default function Home() {
     return (<>
+            <IndexNavigation/>
             <IndexLogin/>
             <OnlyOnDisneyPlus/>
             <WatchAsYouWish/>

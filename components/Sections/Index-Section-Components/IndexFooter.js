@@ -1,8 +1,8 @@
 export const IndexFooter = () => {
 
-    return <section id={"index-footer"}>
+    return <footer id={"index-footer"}>
         <p>
             Index Footer
         </p>
-    </section>
+    </footer>
 }
