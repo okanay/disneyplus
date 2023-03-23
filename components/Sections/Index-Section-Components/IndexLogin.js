@@ -1,40 +1,25 @@
 import {BackgroundImage} from "./UI/Login/BackgroundImage";
 import {DisneySVG} from "../../SVGs/DisneySVG";
 import {AnimatedArrowDownSVG} from "../../SVGs/AnimatedArrowDownSVG";
+import {RegisterForm} from "./UI/Login/RegisterForm";
 
 export const IndexLogin = () => {
-    return <section id={"index-login"} className={'min-h-[740px] text-skin-font-1000 font-montserrat w-full h-[100vh] p-[110px] overflow-hidden relative flex flex-col justify-center items-start flex flex-col justify-end'}>
-        <div className={'max-w-[640px] w-full h-fit flex flex-col justify-start items-start'}>
-            <DisneySVG className={'max-w-[180px] max-h-[100px] w-full h-full'}/>
-            <h1 className={'text-5xl my-6 leading-[4rem]'}>
+    return <section id={"index-login"} className={'min-h-[800px] text-skin-font-1000 font-montserrat w-full h-[100vh] px-3 laptop:p-[7rem] overflow-hidden relative flex flex-col justify-end laptop:justify-center items-start flex flex-col justify-end'}>
+        <div className={'max-w-[440px] sm:max-w-[600px] laptop:max-w-[640px] w-full h-fit flex flex-col laptop:justify-center laptop:items-start justify-end items-center mx-auto laptop:mx-0 mb-36 sm:mb-32 laptop:mb-0 relative z-20'}>
+            <DisneySVG className={'max-w-[130px] max-h-[70px] laptop:max-w-[180px] laptop:max-h-[100px] w-full h-full'}/>
+            <h1 className={'text-[26px] sm:text-5xl sm:leading-[4rem] text-center laptop:text-start my-6'}>
                 <span className={'font-semibold'}>
                     Hayal ettiğinden çok daha fazlası
                 </span>
             </h1>
-            <p className={'text-skin-font-600 text-lg'}>
+            <p className={'text-skin-font-600 text-[16px] sm:text-lg text-center laptop:text-start'}>
                 Üye olmak ya da üyeliğini yeniden başlatmak için e-postanı gir.
             </p>
-            <form className={'flex flex-row justify-start items-center w-full h-fit my-4'}>
-                <div className={'w-full'}>
-                    <input
-                        id={'index-email-input'}
-                        placeholder={"E-posta"}
-                        type="email"
-                        itemType={'email'}
-                        className={'px-4 h-12 w-full bg-gray-700 border border-gray-700 focus:border-skin-body-400 focus:outline-none'}/>
-                    <label
-                        htmlFor={'index-email-input'}/>
-                </div>
-                <div className={'bg-skin-700 hover:bg-skin-600 transition-colors duration-300 w-64 h-12 flex flex-row justify-center'}>
-                    <button type={'button'} className={'w-full'}>
-                        DEVAM ET
-                    </button>
-                </div>
-            </form>
-            <p className={'text-skin-font-600 text-lg'}>Yıllık Disney+ üyeliği için kaydol, aylık ödemeye kıyasla 10 ay
+            <RegisterForm/>
+            <p className={'text-skin-font-600 text-[16px] sm:text-lg text-center laptop:text-start'}>Yıllık Disney+ üyeliği için kaydol, aylık ödemeye kıyasla 10 ay
                 fiyatına 12 ay izle.</p>
         </div>
         <BackgroundImage/>
-        <AnimatedArrowDownSVG url={"/"} className={'w-[48px] h-[48px] p-[6px] absolute z-10 fill-skin-font-700 bottom-12'}/>
+        <AnimatedArrowDownSVG url={"/"} className={'w-[48px] h-[48px] p-[6px] absolute z-10 fill-skin-font-700 bottom-12 w-full laptop:w-fit'}/>
     </section>
 }

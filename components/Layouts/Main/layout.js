@@ -1,6 +1,6 @@
 export const Layout = ({children}) => {
 
-    return (<div>
+    return (<div className={'bg-black'}>
         {children}
     </div>)
 }

@@ -11,7 +11,7 @@ export const IndexNavigation = () => {
     const visibleScrollYValue = 100
 
     return <NavigationTemplate scrollLatest={scrollLatest} blackBgVisibleValue={visibleScrollYValue}>
-        <ul className={'flex flex-row justify-between items-center w-full h-full my-2 gap-4'}>
+        <ul className={'flex flex-row justify-between items-center min-h-[50px] w-full h-full my-2 gap-4'}>
             <NavigationHiddenItem scrollLatest={scrollLatest} blockValue={visibleScrollYValue}>
                 <li className={'h-full'}>
                     <DisneySVG className={"w-[80px] h-[44px]"}/>
