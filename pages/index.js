@@ -10,7 +10,7 @@ export default function Home() {
     return (<>
             <IndexNavigation/>
             <IndexLogin/>
-            {/*<OnlyOnDisneyPlus/>*/}
+            <OnlyOnDisneyPlus/>
             {/*<WatchAsYouWish/>*/}
             {/*<FrequentlyAskedQuestions/>*/}
             {/*<OnYourFavoriteDevices/>*/}
