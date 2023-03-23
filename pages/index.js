@@ -10,11 +10,11 @@ export default function Home() {
     return (<>
             <IndexNavigation/>
             <IndexLogin/>
-            <OnlyOnDisneyPlus/>
-            <WatchAsYouWish/>
-            <FrequentlyAskedQuestions/>
-            <OnYourFavoriteDevices/>
-            <IndexFooter/>
+            {/*<OnlyOnDisneyPlus/>*/}
+            {/*<WatchAsYouWish/>*/}
+            {/*<FrequentlyAskedQuestions/>*/}
+            {/*<OnYourFavoriteDevices/>*/}
+            {/*<IndexFooter/>*/}
         </>
     )
 }
