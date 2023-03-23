@@ -4,7 +4,7 @@ import {AnimatedArrowDownSVG} from "../../SVGs/AnimatedArrowDownSVG";
 import {RegisterForm} from "./UI/Login/RegisterForm";
 
 export const IndexLogin = () => {
-    return <section id={"index-login"} className={`
+    return <section id={"index-login"} className={`overflow-hidden
                                        font-montserrat w-full relative bg-transparent 
                                        tablet:bg-black/95 h-full
                                        laptop:h-[100vh] laptop:static laptop:pb-20 laptop:bg-transparent
@@ -41,11 +41,9 @@ export const IndexLogin = () => {
                     Yıllık Disney+ üyeliği için kaydol, aylık ödemeye kıyasla 10 ay fiyatına 12 ay izle.
                 </p>
             </div>
-        </div>
 
-        <AnimatedArrowDownSVG url={"/"} className={`absolute bottom-24 tablet:static
-        block laptop:block
-        w-full w-[48px] h-[48px] p-[6px] fill-skin-font-700`}/>
+            <AnimatedArrowDownSVG url={"/"} className={`mt-12 w-[48px] h-[48px] p-[6px] fill-skin-font-700 w-full laptop:w-auto`}/>
+        </div>
     </section>
 }
 

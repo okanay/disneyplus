@@ -21,7 +21,7 @@ export const BackgroundImage = ({className}) => {
                 priority
                 src={contentsSM}
                 alt={"Disney Plus Origin Items"}
-                className={`object-top object-contain
+                className={`object-top object-contain object-cover
                 w-full
                 h-[85vh]
                 tablet:block
