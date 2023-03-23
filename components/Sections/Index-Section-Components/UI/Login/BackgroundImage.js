@@ -21,8 +21,7 @@ export const BackgroundImage = ({className}) => {
                 priority
                 src={contentsSM}
                 alt={"Disney Plus Origin Items"}
-                className={`object-top object-fixed object-cover
-                object-center 
+                className={`object-top object-contain
                 w-full
                 h-[85vh]
                 tablet:block
@@ -34,8 +33,8 @@ export const BackgroundImage = ({className}) => {
                 priority
                 src={contentsXS}
                 alt={"Disney Plus Origin Items"}
-                className={`
-                object-fit 
+                className={`object-top object-contain object-cover
+              
                 w-full h-[100vh]
                 absolute bottom-0 left-0 top-0 -z-10 
                 tablet:hidden
