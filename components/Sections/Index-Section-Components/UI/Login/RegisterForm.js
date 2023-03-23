@@ -8,11 +8,11 @@ export const RegisterForm = () => {
                     placeholder={"E-posta"}
                     type="email"
                     itemType={'email'}
-                    className={'px-4 h-12 w-full bg-gray-700 border border-gray-700 focus:border-skin-body-400 focus:outline-none'}/>
+                    className={'rounded-l rounded-r sm:rounded-l sm:rounded-r-none px-4 h-12 sm:h-14 w-full bg-gray-700 border border-gray-700 focus:border-skin-body-400 focus:outline-none'}/>
                 <label
                     htmlFor={'index-email-input'}/>
             </div>
-            <div className={'bg-skin-700 hover:bg-skin-600 transition-colors duration-300 w-full sm:w-64 h-12 flex flex-row justify-center'}>
+            <div className={'rounded-l rounded-r sm:rounded-l-none sm:rounded-r bg-skin-700 hover:bg-skin-600 transition-colors duration-300 w-full sm:w-64 h-12 sm:h-14 flex flex-row justify-center'}>
                 <button type={'button'} className={'w-full'}>
                     DEVAM ET
                 </button>
