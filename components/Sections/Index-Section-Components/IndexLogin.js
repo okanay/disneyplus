@@ -14,12 +14,13 @@ export const IndexLogin = () => {
             tablet:h-full tablet:max-w-full tablet:pt-64 tablet:mx-0
             flex flex-col justify-center
             w-full tablet:absolute sm:bottom-0 
-             laptop:h-full laptop:static laptop:pt-0`
+            laptop:h-full laptop:static laptop:pt-0`
         }>
             <div className={`
-             max-w-[640px] px-4 mx-auto
+             max-w-[640px] px-4 mx-auto  mb-12
              flex flex-col justify-center items-center text-center
-             laptop:justify-center laptop:items-start laptop:text-start laptop:mx-0
+             laptop:justify-center laptop:items-start laptop:text-start laptop:mx-0 laptop:mb-0
+            
              `}>
 
                 <DisneySVG
@@ -42,7 +43,7 @@ export const IndexLogin = () => {
                 </p>
             </div>
 
-            <AnimatedArrowDownSVG url={"/"} className={`mt-12 w-[48px] h-[48px] p-[6px] fill-skin-font-700 w-full laptop:w-auto`}/>
+            <AnimatedArrowDownSVG url={"/"} className={`w-[48px] h-[48px] p-[6px] fill-skin-font-700 w-full laptop:w-auto static laptop:absolute bottom-32`}/>
         </div>
     </section>
 }
