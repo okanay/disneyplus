@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const OnlyOnDisneyPlus = () => {
 
-    return <section id={"only-on-disney-plus"} className={'h-[100vh] w-full bg-black/95 border border-black/95 font-montserrat py-8'}>
+    return <section id={"only-on-disney-plus"} className={'h-[100vh] w-full bg-black/95 border border-skin-body-1100 font-montserrat py-8 overflow-hidden'}>
         <div className={'flex flex-row justify-center items-center px-2 block tablet:hidden'}>
             <div className={'flex flex-col justify-center items-center gap-20'}>
                 <div className={'flex flex-col justify-center items-center text-center gap-6'}>

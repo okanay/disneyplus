@@ -6,7 +6,7 @@ import {RegisterForm} from "./UI/Login/RegisterForm";
 export const IndexLogin = () => {
     return <section id={"index-login"} className={`overflow-hidden
                                        font-montserrat w-full relative bg-transparent 
-                                       tablet:bg-black/95 h-full
+                                       tablet:border-skin-body-1100 h-full
                                        laptop:h-[100vh] laptop:static laptop:pb-20 laptop:bg-transparent
                                        laptop:flex laptop:flex-col laptop:items-start laptop:justify-start laptop:px-28`}>
         <BackgroundImage/>

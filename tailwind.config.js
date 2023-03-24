@@ -70,6 +70,7 @@ module.exports = {
           'body-800' : withOpacity('--theme-body-800'),
           'body-900' : withOpacity('--theme-body-900'),
           'body-1000' : withOpacity('--theme-body-1000'),
+          'body-1100' : withOpacity('--theme-body-1100'),
 
 
           'font-50' : withOpacity('--theme-font-50'),
