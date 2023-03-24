@@ -50,5 +50,5 @@ export const IndexLogin = () => {
 
 
 //
-
+// A search engine tries to suggest words for probable misspelled words by word <i>matching. Two strings are said to be matching can be converted to by applying the following operations any number of times.
 //
