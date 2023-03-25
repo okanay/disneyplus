@@ -11,7 +11,7 @@ export default function Home() {
             <IndexNavigation/>
             <IndexLogin/>
             <OnlyOnDisneyPlus/>
-            {/*<WatchAsYouWish/>*/}
+            <WatchAsYouWish/>
             {/*<FrequentlyAskedQuestions/>*/}
             {/*<OnYourFavoriteDevices/>*/}
             {/*<IndexFooter/>*/}

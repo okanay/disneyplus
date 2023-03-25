@@ -23,6 +23,5 @@ export const OnlyOnDisneyPlus = () => {
                 <Image src={originsSm} alt={"Disney Origins"} className={""} priority={true}/>
             </div>
         </div>
-
     </section>
 }
