@@ -2,6 +2,7 @@ import {IndexNavigation} from "../components/Sections/Index-Section-Components/I
 import {IndexLogin} from "../components/Sections/Index-Section-Components/IndexLogin";
 import {OnlyOnDisneyPlus} from "../components/Sections/Index-Section-Components/OnlyOnDisneyPlus";
 import {WatchAsYouWish} from "../components/Sections/Index-Section-Components/WatchAsYouWish";
+import {EnjoyAsYouWish} from "../components/Sections/Index-Section-Components/EnjoyAsYouWish";
 import {FrequentlyAskedQuestions} from "../components/Sections/Index-Section-Components/FrequentlyAskedQuestions";
 import {OnYourFavoriteDevices} from "../components/Sections/Index-Section-Components/OnYourFavoriteDevices";
 import {IndexFooter} from "../components/Sections/Index-Section-Components/IndexFooter";
@@ -12,7 +13,8 @@ export default function Home() {
             <IndexLogin/>
             <OnlyOnDisneyPlus/>
             <WatchAsYouWish/>
-            {/*<FrequentlyAskedQuestions/>*/}
+            <EnjoyAsYouWish/>
+            <FrequentlyAskedQuestions/>
             {/*<OnYourFavoriteDevices/>*/}
             {/*<IndexFooter/>*/}
         </>
