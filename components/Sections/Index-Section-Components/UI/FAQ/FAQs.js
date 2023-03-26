@@ -30,8 +30,8 @@ export const FaqItems = () => {
                         className={`bg-neutral-900 rounded-sm flex flex-col justify-center px-6 cursor-pointer my-0.5 transition-all overflow-auto duration-300 ${answers[index].open ? "max-h-[1500px]" : "max-h-0"}`}>
                         <div className={'flex flex-col items-start text-start justify-start py-4 text-skin-font-700'}>
                             <h2>{item.explanation.main}</h2>
-                            <h2 className={`${item.explanation.title !== "" ? "mt-8" : "mt-0"} ${item.explanation.list.length > 0 && "mb-2"}`}>{item.explanation.title}</h2>
-                            <ul className={`${item.explanation.list.length > 0 && `${item.explanation.listType} space-y-2 px-8`} ${item.explanation.title === "" ? "mt-0" : "mt-2"} `}>
+                            <h2 className={`${item.explanation.title !== "" ? "mt-8" : "mt-0"} ${item.explanation.list.length > 0 && "mb-3"}`}>{item.explanation.title}</h2>
+                            <ul className={`${item.explanation.list.length > 0 && `${item.explanation.listType} space-y-2 px-8`} ${item.explanation.title === "" ? "mt-0" : "mt-3"} `}>
                                 {item.explanation.list?.map(i => {
                                     return (
                                         <li key={i.key}>
@@ -42,7 +42,8 @@ export const FaqItems = () => {
                             </ul>
 
                             {item.explanation.url && (
-                                <span className={'mt-10'}>Daha fazla bilgi için <span className={'text-skin-font-1000 underline'}>buraya</span> tıkla.</span>
+                                <span className={'mt-10'}>Daha fazla bilgi için <span
+                                    className={'text-skin-font-1000 underline'}>buraya</span> tıkla.</span>
                             )}
                         </div>
                     </div>
@@ -59,7 +60,7 @@ const FAQs = [
             {
                 main: "Disney+; Disney, Pixar, Marvel, Star Wars, National Geographic ve çok daha fazlasına ait içeriklerin yer aldığı dijital yayın platformudur.",
                 title: "Disney+, standart üyelik paketi kapsamında birçok ayrıcalık sunar:",
-                listType : "list-disc",
+                listType: "list-disc",
                 list: [
                     {
                         key: "questions-1-list-1",
@@ -86,7 +87,7 @@ const FAQs = [
                         item: "GroupWatch özelliğiyle altı arkadaşınla sanal izleme partileri düzenleme imkanı"
                     }
                 ],
-                url : false
+                url: false
             }
     },
     {
@@ -94,7 +95,7 @@ const FAQs = [
             {
                 main: "Dünyanın en iyi hikaye anlatıcılarından binlerce film, belgesel, dizi, animasyon, kısa içerik ve her ay eklenen yeni içeriklerle Disney+’ta her zaman izlemek için bir şey bulacaksın.",
                 title: "",
-                listType : "list-disc",
+                listType: "list-disc",
                 list: [
                     {
                         key: "questions-2-list-1",
@@ -129,9 +130,9 @@ const FAQs = [
             {
                 main: "Disney+ aylık üyelik bedeli 64,99 TL’dir. Dilersen yıllık üyelik ile (tek ödemede 649,90 TL) 10 ay fiyatına 12 ay izleyebilirsin!*",
                 title: "*12 ay boyunca aylık ödemeye kıyasla sağlanan avantaj",
-                listType : "list-disc",
+                listType: "list-disc",
                 list: [],
-                url : false,
+                url: false,
             }
     },
     {
@@ -139,9 +140,9 @@ const FAQs = [
             {
                 main: "Disney+; mobil cihazlar, web tarayıcıları, oyun konsolları, set üstü kutular ve smart TV’leri destekler. Tam liste için buraya tıkla.",
                 title: "",
-                listType : "list-disc",
+                listType: "list-disc",
                 list: [],
-                url : false
+                url: false
             }
     },
     {
@@ -149,7 +150,7 @@ const FAQs = [
             {
                 main: "Disney+ üyeliği hiçbir taahhüt gerektirmez ve mevcut faturalandırma döneminin bitiminden itibaren geçerli olmak kaydıyla üyeliğini dilediğin zaman iptal edebilirsin. Aşağıdaki 5 kolay adımı izlemen yeterli.",
                 title: "",
-                listType : "list-decimal",
+                listType: "list-decimal",
                 list: [
                     {
                         key: "questions-5-list-1",
@@ -172,7 +173,7 @@ const FAQs = [
                         item: "İptal İşlemini Tamamla’yı seçerek onayla"
                     },
                 ],
-                url : true
+                url: true
             }
     },]
 
