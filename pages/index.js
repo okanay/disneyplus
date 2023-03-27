@@ -15,8 +15,8 @@ export default function Home() {
             <WatchAsYouWish/>
             <EnjoyAsYouWish/>
             <FrequentlyAskedQuestions/>
-            {/*<OnYourFavoriteDevices/>*/}
-            {/*<IndexFooter/>*/}
+            <OnYourFavoriteDevices/>
+            <IndexFooter/>
         </>
     )
 }
